@@ -26,14 +26,19 @@
 // }
 // */
 // // print(names);
-// }
+// 
 
 void main(){
   List studentNames=['bilal','ali','zeshan','asalam','ashsan'];
-  print(studentNames.isEmpty);
-  studentNames.clear();
-  print('f');
-  print(studentNames.isNotEmpty);
+  // print(studentNames.isEmpty);
+  // studentNames.clear();
+  // print('f');
+  // print(studentNames.isNotEmpty);
+// studentNames.add("bye");
+// studentNames.addAll(['bye','abc']);
+// studentNames.insert(2, "element");
 
+var abc = studentNames.reversed;
+print(studentNames);
 
 }
