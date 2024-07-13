@@ -1,9 +1,9 @@
 import 'dart:async';
 
 // void main(){
-  // String name1='bilal';
-  // print(name1);
-  // List studentNames=['bilal','ali','taber','ahmed',1,true];
+// String name1='bilal';
+// print(name1);
+// List studentNames=['bilal','ali','taber','ahmed',1,true];
 // list can also take specific type of data
 // List<String> studentName=['bilal','ali','taber'];
 // print(studentName);
@@ -16,9 +16,9 @@ import 'dart:async';
 //   // index start with 0
 //   // index= lenght -1
 //   print(studentNames[3]);
-void main(){
-List studentNames=['bilal','ali','taber','ahmed'];
-print(studentNames.length);
+void main() {
+  List studentNames = ['bilal', 'ali', 'taber', 'ahmed'];
+  print(studentNames.length);
 // print(studentNames.first);
 // print(studentNames.isEmpty);
 // print(studentNames.isNotEmpty);
@@ -27,20 +27,12 @@ print(studentNames.length);
 // print(studentNames.elementAt(3));
 
 // how to update list?
-studentNames[0]='qwe';
-print(studentNames);
+  studentNames[0] = 'qwe';
+  print(studentNames);
 // for second last value
-print(studentNames[studentNames.length-1]);
+  print(studentNames[studentNames.length - 1]);
 
 // String name = 'ali';
 // name='bilal';
 // print(name);
-
-
-
-
-
-
-
-
 }

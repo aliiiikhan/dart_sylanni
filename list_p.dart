@@ -26,15 +26,15 @@
 // }
 // */
 // // print(names);
-// 
+//
 
-void main(){
-  List studentNames=[1,3,5,4,9,7,6];
- studentNames.sort();
- print(studentNames);
+void main() {
+  List studentNames = [1, 3, 5, 4, 9, 7, 6];
+  studentNames.sort();
+  print(studentNames);
 
- var abc=studentNames.reversed;
- print(abc);
+  var abc = studentNames.reversed;
+  print(abc);
 
 //  var abc= studentNames.sort;
 //  print(abc);
@@ -62,7 +62,4 @@ void main(){
 // retain where is the opposite of delete where
 // studentNames.retainWhere((e)=>e<5);
 // print(studentNames);
-
-
-
 }
