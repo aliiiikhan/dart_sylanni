@@ -29,7 +29,17 @@
 // 
 
 void main(){
-  List studentNames=['bilal','ali','zeshan','asalam','ashsan'];
+  List studentNames=[1,3,5,4,9,7,6];
+ studentNames.sort();
+ print(studentNames);
+
+ var abc=studentNames.reversed;
+ print(abc);
+ 
+//  var abc= studentNames.sort;
+//  print(abc);
+
+  // ['bilal','ali','zeshan','asalam','ashsan'];
   // print(studentNames.isEmpty);
   // studentNames.clear();
   // print('f');
@@ -38,7 +48,21 @@ void main(){
 // studentNames.addAll(['bye','abc']);
 // studentNames.insert(2, "element");
 
-var abc = studentNames.reversed;
-print(studentNames);
+// var abc = studentNames.reversed;
+// print(studentNames);
+// var abc = studentNames.reversed;
+// it converts list into itrable
+// for converting into list
+// var abc= List.of(studentNames.reversed);
+// print(abc);
+// studentNames.remove('ali');
+// studentNames.removeAt(0);
+// print(studentNames);
+// studentNames.removeWhere((e)=> e<5);
+// retain where is the opposite of delete where
+// studentNames.retainWhere((e)=>e<5);
+// print(studentNames);
+
+
 
 }
