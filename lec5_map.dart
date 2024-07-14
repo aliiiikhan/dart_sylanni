@@ -63,14 +63,15 @@
 
 // }
 
+void main() {
+  var f1 = {1: 'apple', 2: 'orange'};
+  var f2 = {3: 'bananaa'};
+  var f3 = {4: 'mango'};
+  var fruit = {}..addAll(f1);
+  // ..addAll(f2)
+  // ..addAll(f3);
 
-void main(){
-  var f1={1:'apple',2:'orange'};
-  var f2={3:'bananaa'};
-  var f3={4:'mango'};
-  var fruit={}
-  ..addAll(f1)
-  ..addAll(f2)
-  ..addAll(f3);
+  // dot dot are known as cascate operater ..(..)
+
   print(fruit);
 }
