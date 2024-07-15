@@ -1,31 +1,38 @@
-import 'dart:io';
+// // import 'dart:io';
 
-void main(){
+// // void main(){
 
-  bool islogin=false;
-  while (islogin==false){
-     var email=(stdin.readLineSync()!);
+// //   bool islogin=false;
+// //   while (islogin==false){
+// //      var email=(stdin.readLineSync()!);
 
-  var password=(stdin.readLineSync()!);
+// //   var password=(stdin.readLineSync()!);
 
-  
-  if(
-    email=='admin@gmail.com' && password=='12345'
-  ){
-    print('login succeful');
-    islogin=true;
-  } else{
-    print('login field');
-    
-  }
+// //   if(
+// //     email=='admin@gmail.com' && password=='12345'
+// //   ){
+// //     print('login succeful');
+// //     islogin=true;
+// //   } else{
+// //     print('login field');
 
-  }
-}
+// //   }
+
+// //   }
+// // }
+// // // void main(){
+// // //   bool islogin=false;
+// // //   while (islogin==false){
+// // //     print('hello');
+// // //     islogin=true;
+// // //   }
+
+// // // }
 // void main(){
-//   bool islogin=false;
-//   while (islogin==false){
-//     print('hello');
-//     islogin=true;
-//   }
+//   int abc=0;
+//   do {
+//     print("object");
 
+//   } while(abc>0);
 // }
+
